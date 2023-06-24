@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/menuFragment">
+
+
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.android.sharedshoppinglist.app.MenuFragment"
+        android:label="Shared Shopping List">
+        <action
+            android:id="@+id/action_menuFragment_to_newListFragment"
+            app:destination="@id/newListFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_listsFragment"
+            app:destination="@id/listsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newListFragment"
+        android:name="com.android.sharedshoppinglist.app.NewListFragment"
+        android:label="@string/creating_new_list_text"
+        tools:layout="@layout/fragment_new_list">
+        <action
+            android:id="@+id/action_newListFragment_to_listsFragment"
+            app:destination="@id/listsFragment"
+            app:popUpTo="@id/newListFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/addProductFragment"
+        android:name="com.android.sharedshoppinglist.app.AddProductFragment"
+        android:label="@string/adding_new_product_text"
+        tools:layout="@layout/fragment_add_product" />
+    <fragment
+        android:id="@+id/listsFragment"
+        android:name="com.android.sharedshoppinglist.app.ListsFragment"
+        android:label="@string/your_lists_text"
+        tools:layout="@layout/fragment_lists">
+        <action
+            android:id="@+id/action_listsFragment_to_listInfoFragment"
+            app:destination="@id/listInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productInfoFragment"
+        android:name="com.android.sharedshoppinglist.app.ProductInfoFragment"
+        android:label="@string/product_information_text"
+        tools:layout="@layout/fragment_product_info" />
+    <fragment
+        android:id="@+id/listInfoFragment"
+        android:name="com.android.sharedshoppinglist.app.ListInfoFragment"
+        android:label="@string/your_products_text">
+        <action
+            android:id="@+id/action_listInfoFragment_to_addProductFragment"
+            app:destination="@id/addProductFragment" />
+        <action
+            android:id="@+id/action_listInfoFragment_to_productInfoFragment"
+            app:destination="@id/productInfoFragment" />
+    </fragment>
+</navigation>

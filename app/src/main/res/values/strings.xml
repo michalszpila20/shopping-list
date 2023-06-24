@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SharedShoppingList</string>
+
+    <string name="add_new_list">New List</string>
+    <string name="lists">Lists</string>
+    <string name="quit">Quit</string>
+    <string name="new_list_name_text">New list name</string>
+    <string name="add_product_text">Add product</string>
+    <string name="add_list_text">Add list</string>
+    <string name="product_name">Product name</string>
+    <string name="quantity_text">Quantity</string>
+    <string name="store_text">Store</string>
+    <string name="your_lists_text">Your lists</string>
+    <string name="set_reminder_text">Set reminder?</string>
+    <string name="products_text">Products:</string>
+    <string name="date_text">Date</string>
+    <string name="time_text">Time</string>
+    <string name="alarm_text">Alarm</string>
+    <string name="list_name_text">List name:</string>
+    <string name="app_title">Shared Shopping List</string>
+    <string name="creating_new_list_text">Creating new list</string>
+    <string name="your_products_text">Your products</string>
+    <string name="adding_new_product_text">Adding new product</string>
+    <string name="product_information_text">Product information</string>
+
+    <string-array name="categories">
+        <item>Dairy</item>
+        <item>Bakery</item>
+        <item>Beverage</item>
+        <item>Nonfood and Pharmacy</item>
+        <item>Meat</item>
+        <item>Spices</item>
+        <item>Vegetables</item>
+        <item>Fruits</item>
+    </string-array>
+
+</resources>

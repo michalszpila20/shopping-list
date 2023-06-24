@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SharedShoppingList</string>
+    <string name="add_new_list">Nowa lista</string>
+    <string name="lists">Listy</string>
+    <string name="quit">Wyjdź</string>
+    <string name="app_title">Shared Shopping List</string>
+    <string name="new_list_name_text">Nazwa nowej listy</string>
+    <string name="add_product_text">Dodaj produkt</string>
+    <string name="add_list_text">Dodaj listę</string>
+    <string name="product_name">Nazwa produktu</string>
+    <string name="quantity_text">Ilość</string>
+    <string name="store_text">Sklep</string>
+    <string name="your_lists_text">Twoje listy</string>
+    <string name="set_reminder_text">Ustawić przypomnienie?</string>
+    <string name="products_text">Produkty:</string>
+    <string name="date_text">Data</string>
+    <string name="time_text">Czas</string>
+    <string name="alarm_text">Alarm</string>
+    <string name="list_name_text">Nazwa listy:</string>
+    <string name="creating_new_list_text">Tworzenie nowej listy</string>
+    <string name="your_products_text">Twoje produkty</string>
+    <string name="adding_new_product_text">Dodawanie nowego produktu</string>
+    <string name="product_information_text">Informacje o produkcie</string>
+</resources>
